@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Game.h
+SFML/Graphics.hpp
+-
+vector
+-
+string
+-
+sstream
+-
+
+/home/sol0/code/Snake/src/Game.cpp
+Game.h
+/home/sol0/code/Snake/src/Game.h
+iostream
+-
+time.h
+-
+stdlib.h
+-
+
