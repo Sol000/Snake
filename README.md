@@ -3,7 +3,7 @@
 this game was created with the SFML Graphics library. It is easy to install, runn the following code in the shell 
 <code>sudo apt-get install libsfml-dev</code>
 
-To compile this you have to install Cmake and create a CMakeLists.txt-File in the on top of the project tree with the following code in it:
+To compile this you have to install Cmake and create a CMakeLists.txt-File on top of the project tree with the following code in it:
 
     cmake_minimum_required(VERSION 3.10)
     set(CMAKE_CXX_STANDARD 17)
